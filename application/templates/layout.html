@@ -3,23 +3,23 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TodoApp</title>
+  <title>Infoa fukseille</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-<a href="#" class="navbar-left"><img src="https://wiki.helsinki.fi/download/attachments/35919049/Matrix_supermassiivinen.png?api=v2" style="width: auto; height: 100px;"></a>
+    <a href="#" class="navbar-left"><img src="https://wiki.helsinki.fi/download/attachments/35919049/Matrix_supermassiivinen.png?api=v2" style="width: auto; height: 100px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
 </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('index') }} ">Etusivu</a>
+          <a class="nav-link" href="{{ url_for('viikko_taulu') }} ">Orientoivan viikon aikataulu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('viikko_taulu') }} ">Viikko-ohjelma</a>
+          <a class="nav-link" href="{{ url_for('index') }} ">Tulevia tapahtumia</a>
         </li>
       </ul>
     </div>
